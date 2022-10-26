@@ -12,7 +12,7 @@ namespace api_test.DataManager
 
         public async void InjectAllData()
         {
-            Acl
+            
         }
     }
 }

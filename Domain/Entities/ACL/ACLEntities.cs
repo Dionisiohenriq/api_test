@@ -5,16 +5,16 @@
     public class Role
     {
         public const string ADMIN = "ADMIN";
-        public const string BILLING_ADVICE = "BILLINGADVICE";
-        public const string DWELLER = "DWELLER";
+        public const string USER = "USER";
+        public const string DBA = "DBA";
     }
     #endregion //ACL_IDENTITY_ENTITIES
 
     #region CLAIM_DEFAULT_VALUES
     public static class ClaimType
     {
-        public const string BUILDING = "BUILDING";
-        public const string BILLING = "BILLING";
+        public const string ADMIN = "ADMIN";
+        public const string USER = "USER";
     }
     
     public static class ClaimValue

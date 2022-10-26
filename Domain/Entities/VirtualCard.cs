@@ -6,7 +6,7 @@ namespace api_test.Domain.Entities
     public class VirtualCard : Entity, IEntityTypeConfiguration<VirtualCard>
     {
         public string Email { get; private set; }
-        public string? CardNumber { get; private set; }
+        public string CardNumber { get; private set; }
 
         public VirtualCard(Guid id) => Id = id;
         public VirtualCard(string email, string cardNumber)
